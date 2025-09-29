@@ -25,7 +25,11 @@ cd custom-mcp-agent
 
 ### Configure Agent 
 Edit the environment files .env to set up agent and environment variable / connection details for Databricks and the MCP server.
-Then run the notebook 01, 02 
+Then walk through the notebook:
+- 01. Setups secrets in your Databricks environment (for secure secret governance).
+- 02. Creates the agent using langgraph, connects it with your MCP server and deploys it as an endpoint.
+- 03. Evaluates the performance of your agents.
+     
 ### Deploy to Databricks
 Follow the deployment scripts or guidelines included to deploy your agent to the target Databricks workspace.
 
