@@ -5,7 +5,7 @@ This repository provides tools and code to build agents using the LangGraph fram
 The system integrates with an MCP server, which is deployed using the [`custom-mcp-to-dbx`](https://github.com/julie-nguyen-ds/custom-mcp-to-dbx) repository for agent orchestration and communication.
 
 ## Features
-- **Create LangGraph Agents**: Define and configure autonomous agents for workflow automation within Databricks[1].
+- **Create LangGraph Agents**: Define and configure autonomous agents for workflow automation within Databricks.
 - **Easy Deployment**: Deploy agents singly or in batches to Databricks workspaces.
 - **Agent Quality Evaluation**: Built-in tools for evaluating agent performance metrics and quality.
 - **MCP Server Integration**: Plug agents into an MCP server for agent management and message passing, which should be set up using the referenced repo.
